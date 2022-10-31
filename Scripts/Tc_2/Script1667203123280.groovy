@@ -21,39 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.click(findTestObject('null'))
+WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'), 'nnhyfhbhy')
 
-WebUI.click(findTestObject('null'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'), 
+    'zBqcd4vwYM9d2jK0KMCdFA==')
 
-WebUI.rightClick(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71'))
 
-WebUI.click(findTestObject('null'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909'), 
+    'Epic sadface: Username and password do not match any user in this service')
 
-WebUI.click(findTestObject('null'))
+WebUI.openBrowser('')
 
-WebUI.rightClick(findTestObject('null'))
+WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.click(findTestObject('null'))
-
-WebUI.rightClick(findTestObject('null'))
-
-WebUI.setText(findTestObject('null'), 'standart_user')
-
-WebUI.setEncryptedText(findTestObject('null'), 
-    'qcu24s4901FyWDTwXGr6XA==')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.setEncryptedText(findTestObject('null'), 
-    'qcu24s4901FyWDTwXGr6XA==')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
+WebUI.closeBrowser()
 
